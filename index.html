@@ -11,7 +11,7 @@
     <title>Audiología Protésica</title>
 </head>
 <body>
-    <div class="">
+    <div class="container">
         <header class="d-flex flex-wrap align-items-center py-3 mb-4 border-bottom">
             <div class="d-flex align-items-center justify-content-between  w-100">
                 <a href="/" class="d-flex align-items-center mb-0 text-dark text-decoration-none">
@@ -32,7 +32,8 @@
 
         </header>
     
-        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+
+        <div class="offcanvas offcanvas-top w-50 h-75 rounded-bottom-4" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
             <div class="offcanvas-header">
                 <h5 id="offcanvasTopLabel" class="text-center w-100">Ciclos Formativos</h5>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -40,27 +41,101 @@
             <div class="offcanvas-body">
                 <div class="d-flex flex-column align-items-center">
                     <h6 class="mb-3">FP Sanidad</h6>
-                    <div class="d-flex p-3 row-3 gap-2">
-                        <button type="button" class="btn btn-outline-success rounded-pill">Anatomía Patológica y Citodiagnóstico</button>
-                        <button type="button" class="btn btn-outline-success rounded-pill">Anatomía Patológica y Citodiagnóstico</button>
-                        <button type="button" class="btn btn-outline-success rounded-pill">Anatomía Patológica y Citodiagnóstico</button>
-                        <button type="button" class="btn btn-outline-success rounded-pill">Anatomía Patológica y Citodiagnóstico</button>
-                        <button type="button" class="btn btn-outline-success rounded-pill">Anatomía Patológica y Citodiagnóstico</button>
-                        <button type="button" class="btn btn-outline-success rounded-pill">Anatomía Patológica y Citodiagnóstico</button>
-
+                    <div class="row p-3 gap-2 justify-content-center button-space">
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn btn-outline-success rounded-pill btn-fixed-size">Anatomía Patológica y Citodiagnóstico</button>
+                        </div>
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn btn-outline-success rounded-pill btn-fixed-size">Audiología Protésica</button>
+                        </div>
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn btn-outline-success rounded-pill btn-fixed-size">Auxiliar de Enfermería</button>
+                        </div>
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn btn-outline-success rounded-pill btn-fixed-size">Dietética</button>
+                        </div>
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn btn-outline-success rounded-pill btn-fixed-size">Higiene Bucodental</button>
+                        </div>
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn btn-outline-success rounded-pill btn-fixed-size">Imagen para el Diagnóstico y Medicina Nuclear</button>
+                        </div>
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn btn-outline-success rounded-pill btn-fixed-size">Laboratorio Clínico y Biomédico</button>
+                        </div>
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn btn-outline-success rounded-pill btn-fixed-size">Prótesis Dentales</button>
+                        </div>
                     </div>
+        
                     <h6 class="mb-3">FP Imagen y Sonido</h6>
+                    <div class="row p-3 gap-2 justify-content-center">
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn btn-outline-danger rounded-pill btn-fixed-size">3D, Juegos y Entornos Interactivos</button>
+                        </div>
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn btn-outline-danger rounded-pill btn-fixed-size">Curso de Especialización en Desarrollo de Videojuegos y Realidad Virtual</button>
+                        </div>
+                    </div>
+        
                     <h6 class="mb-3">FP Marketing y Comercio</h6>
+                    <div class="row p-3 gap-2 justify-content-center">
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn rounded-pill btn-fixed-size rosa">Marketing y Publicidad</button>
+                        </div>
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn rounded-pill btn-fixed-size rosa">Transporte y Logística</button>
+                        </div>
+                    </div>
+        
                     <h6 class="mb-3">FP Informática y Telecomunicaciones</h6>
+                    <div class="row p-3 gap-2 justify-content-center">
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn rounded-pill btn-fixed-size morado">Curso de Especialización en Inteligencia Artificial y Big Data</button>
+                        </div>
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn rounded-pill btn-fixed-size morado">Desarrollo de Aplicaciones Multiplataforma</button>
+                        </div>
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn rounded-pill btn-fixed-size morado">Desarrollo de Aplicaciones Web</button>
+                        </div>
+                    </div>
+        
                     <h6 class="mb-3">FP Administración y Gestión</h6>
+                    <div class="row p-3 gap-2 justify-content-center">
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn rounded-pill btn-fixed-size azul">Administración y Finanzas</button>
+                        </div>
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn rounded-pill btn-fixed-size azul">Asistencia a la Dirección</button>
+                        </div>
+                    </div>
+        
                     <h6 class="mb-3">FP Servicios Socioculturales</h6>
+                    <div class="row p-3 gap-2 justify-content-center">
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn rounded-pill btn-fixed-size amarillo">Educación Infantil</button>
+                        </div>
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn rounded-pill btn-fixed-size amarillo">Integración Social</button>
+                        </div>
+                    </div>
+        
                     <h6 class="mb-3">FP Imagen Personal</h6>
+                    <div class="row p-3 gap-2 justify-content-center">
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn rounded-pill btn-fixed-size naranja">Caracterización y Maquillaje Profesional</button>
+                        </div>
+                        <div class="col-auto mb-3">
+                            <button type="button" class="btn rounded-pill btn-fixed-size naranja">Estética y Belleza</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         
+        
     </div>
-    
     
 </body>
 </html>

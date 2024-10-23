@@ -6,3 +6,78 @@ header img{
 ul{
     margin-right: 1vw;
 }
+
+.offcanvas-top{
+    margin-left: 25%;
+}
+
+.btn-fixed-size {
+    width: 300px;
+    height: 60px;
+    white-space: normal;
+}
+
+.button-space {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaciado entre los botones */
+    justify-content: center; /* Centra los botones en cada fila */
+}
+
+/* Opcionalmente puedes centrar todo el contenido */
+.offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-auto {
+    display: flex;
+    justify-content: center;
+}
+
+.morado{
+    color: purple;
+    border-color: purple;
+}
+.morado:hover{
+    background-color: purple;
+    color: white;
+}
+
+
+.rosa{
+    color: rgb(252, 73, 186);
+    border-color: rgb(252, 73, 186);
+}
+.rosa:hover{
+    background-color: rgb(252, 73, 186);
+    color: white;
+}
+
+.azul{
+    color: rgb(35, 10, 198);
+    border-color: rgb(35, 10, 198);
+}
+.azul:hover{
+    background-color: rgb(35, 10, 198);
+    color: white;
+}
+
+.amarillo{
+    color: rgb(253, 200, 25);
+    border-color: rgb(253, 200, 25);
+}
+.amarillo:hover{
+    background-color: rgb(253, 200, 25);
+    color: white;
+}
+
+.naranja{
+    color: rgb(237, 128, 20);
+    border-color: rgb(237, 128, 20);
+}
+.naranja:hover{
+    background-color: rgb(237, 128, 20);
+    color: white;
+}
